@@ -3,6 +3,7 @@
         background-color: rgba(247, 247, 247, 0.75);
         padding-left: 20px;
         padding-right: 20px;
+        overflow-x: hidden;
     }
 
     .section1-mx-w {
