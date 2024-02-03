@@ -1,6 +1,16 @@
 import React from 'react';
 import './Section6.css';
 
+
+function handleClick(id){
+var element = document.getElementById(id);
+if(element.classList.contains('active')){
+    element.classList.remove('active');
+}else{
+    element.classList.add('active') ;
+}
+}
+
 export default function Section6() {
     return (
         <div className='section6'>
@@ -30,8 +40,8 @@ export default function Section6() {
             <div className='section6-mx-w2'>
                 <div className='footer'>
                     <div className='footer-df'>
-                        <div className='footer-con'>
-                            <h5>PRODUCTS</h5>
+                        <div className='footer-con' id='data'>
+                            <h5 onClick="handleClick(data)">PRODUCTS</h5>
                             <ul>
                                 <li><a href='#'>Air vehicles</a></li>
                                 <li><a href='#'>Light Electric Vehicle</a></li>
@@ -40,8 +50,8 @@ export default function Section6() {
                                 <li><a href='#'>Marine</a></li>
                             </ul>
                         </div>
-                        <div className='footer-con'>
-                            <h5>USEFUL LINKS</h5>
+                        <div className='footer-con' id='data1'>
+                            <h5 onClick="handleClick(data1)">USEFUL LINKS</h5>
                             <ul>
                                 <li><a href='#'>Company</a></li>
                                 <li><a href='#'>Contact</a></li>
@@ -49,8 +59,8 @@ export default function Section6() {
                                 <li><a href='#'>Privacy</a></li>
                             </ul>
                         </div>
-                        <div className='footer-con'>
-                            <h5>LOCATE US</h5>
+                        <div className='footer-con' id='data2'>
+                            <h5 onClick="handleClick(data2)">LOCATE US</h5>
                             <ul>
                                 <li><a href='#'>116 John Street STE 205Lowell, MA 01852</a></li>
                                 <li><a href='#'>MON - FRI: 9:00 AM - 5:00 PM</a></li>
