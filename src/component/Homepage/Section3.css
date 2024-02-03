@@ -38,7 +38,7 @@
     }
     
     .w100{
-        width: 100%;
+        /* width: 100%; */
         display: flex;
         margin-top: 48px;
         padding-left: 12px;
@@ -52,7 +52,7 @@
     
     
     .w60{
-        width: 100%;
+        /* width: 100%; */
     }
    
        
@@ -83,7 +83,7 @@
         background-color: #323232;
         margin-left: 600.125px;
         cursor: pointer;
-        margin-left: 0px;
+        margin-left: 10px;
     }
     
     .product-btn1 img {
