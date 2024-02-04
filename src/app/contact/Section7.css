@@ -11,8 +11,8 @@
         width: 100%;
     }
     
-    .con-text {
-        font-size: 16px;
+    .con-text h2 {
+        font-size: 26px;
         font-weight: 400;
         line-height: 28px;
         font-family: ibmplexsans, sans-serif;
@@ -23,7 +23,7 @@
     }
     
     .con-btn{
-        width: 310px;
+        width: 300px;
         height: 45px;
         border-radius:30px ;
         border: 0.8px solid rgb(222, 226, 230);
@@ -37,7 +37,7 @@
     }
     
     .con-btn1{
-        width: 310px;
+        width: 300px;
         height: 200px;
         border-radius:30px ;
         border: 0.8px solid rgb(222, 226, 230);
