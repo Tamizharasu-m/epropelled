@@ -244,8 +244,7 @@
     }
     
     .img1{
-        height: 37px;
-        width: 140px;
+        display: none;
     }
     
     .img2{
@@ -264,8 +263,7 @@
     }
     
     .img5{
-        height: 20px;
-        width: 158px;
+        display: none;
     }
     
     .section6-mx-w1{
