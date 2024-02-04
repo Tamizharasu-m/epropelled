@@ -19,6 +19,7 @@
         }
         
         .box{
+            margin-top: 20px;
             width: 310px;
             height: 300px;
             border: 0.8px solid rgb(82, 167, 136);
