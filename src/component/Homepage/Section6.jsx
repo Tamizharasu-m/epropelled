@@ -77,7 +77,7 @@ export default function Section6() {
                 <div className='footer-para'>
                     <p>© 2023 ePROPELLED all rights reserved.</p>
                 </div>
-                <div className='img-icon'>
+                <div className='img-icon1'>
                     <img src="./image/home image/in.svg" alt="" />
                     <img src="./image/home image/insta.svg" alt="" />
                     <img src="./image/home image/twiter.svg" alt="" />
