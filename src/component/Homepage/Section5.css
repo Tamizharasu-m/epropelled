@@ -19,7 +19,7 @@
         }
         
         .box{
-            width: 320px;
+            width: 330px;
             height: 300px;
             border: 0.8px solid rgb(82, 167, 136);
             border-radius:32px ;
@@ -138,6 +138,6 @@
         font-family: "Open Sans", sans-serif;
         color: rgb(33, 37, 41);
         position: relative;
-        top: 200px;
+        top: 150px;
     }
 }

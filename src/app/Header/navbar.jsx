@@ -15,11 +15,11 @@ export default function(name,...props){
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
    
-//  
+
     return (
 
 
-        <div className="container1">
+        <div className="container1-sec">
             <div className="mx-w">
                 <div className="header-logo">
                     <Link href="/" ><img src="./image/home image/logo.svg" /></Link>

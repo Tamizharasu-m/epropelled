@@ -1,5 +1,5 @@
 @media screen and (max-width:576px) {
-    .container1 {
+    .container1-sec {
         padding-top: 16px;
         padding-bottom: 16px;
         background-color: rgba(247, 247, 247, 0.75);
@@ -59,7 +59,7 @@
 }
 
 @media screen and (min-width: 576px) and (max-width:992px) {
-    .container1 {
+    .container1-sec {
         padding-top: 16px;
         padding-bottom: 16px;
         background-color: rgba(247, 247, 247, 0.75);
@@ -98,7 +98,7 @@
 
 
 @media screen and (min-width:992px) {
-    .container1 {
+    .container1-sec {
         padding-top: 16px;
         padding-bottom: 16px;
         background-color: rgba(247, 247, 247, 0.75);
