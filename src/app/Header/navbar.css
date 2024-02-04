@@ -21,6 +21,7 @@
         width: 160px;
         height: 29px;
         cursor: pointer;
+        margin-left: 20px;
     }
 
     .header-links {
@@ -29,6 +30,10 @@
 
     .header-btn {
         display: none;
+    }
+
+    .header-icon img{
+        margin-right: 20px;
     }
 }
 
