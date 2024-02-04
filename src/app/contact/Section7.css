@@ -1,7 +1,7 @@
 @media screen and (max-width:576px) {
     .con-section1{
         background-color: rgba(247, 247, 247, 0.75);
-        padding-bottom: 200px;
+        padding-bottom: 100px;
     }
     
     .con-section1-mx-w1{
@@ -11,7 +11,7 @@
         width: 100%;
     }
     
-    .con-text{
+    .con-text {
         font-size: 16px;
         font-weight: 400;
         line-height: 28px;
@@ -19,10 +19,11 @@
         align-items: start;
         color: rgb(42, 42, 42);
         max-width: 1150px;
+        padding-left: 10px;
     }
     
     .con-btn{
-        width: 322px;
+        width: 310px;
         height: 45px;
         border-radius:30px ;
         border: 0.8px solid rgb(222, 226, 230);
@@ -36,7 +37,7 @@
     }
     
     .con-btn1{
-        width: 322px;
+        width: 310px;
         height: 200px;
         border-radius:30px ;
         border: 0.8px solid rgb(222, 226, 230);
