@@ -19,12 +19,15 @@
         }
         
         .box{
-            width: 310px;
+            width: 320px;
             height: 300px;
             border: 0.8px solid rgb(82, 167, 136);
             border-radius:32px ;
             background-color:rgba(96, 210, 168, 0.78) ;
             padding: 1.5rem;
+            margin-top: 20px;
+            text-align: start;
+            margin-left: 10px;
         }
         
         .box h1{
@@ -41,7 +44,7 @@
             font-family: "Open Sans", sans-serif;
             color: rgb(33, 37, 41);
             position: relative;
-            top: 150px;
+            top: 90px;
         }
 }
 

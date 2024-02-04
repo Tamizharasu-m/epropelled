@@ -12,11 +12,27 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
       <body>
-        <Navbar/>     
-      {children}
-      <Section6/>
+        <Navbar />
+        {children}
+        <Section6 />
+
+
+
+
+
       </body>
+      <script src="
+    https://cdn.jsdelivr.net/npm/react-bootstrap-navbar-offcanvas@1.0.3/lib/navbar-offcanvas.min.js
+    "></script>
+      <script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js" crossorigin></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script>
     </html>
   );
 }
