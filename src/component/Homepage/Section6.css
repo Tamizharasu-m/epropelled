@@ -129,7 +129,7 @@
 
     
       
-    .accordion1 {
+    .accordion {
         background-color: #eee;
         color: #444;
         cursor: pointer;
@@ -142,11 +142,11 @@
         transition: 0.4s;
       }
       
-      .active, .accordion1:hover {
-        background-color: #ffffff;
+      .active, .accordion:hover {
+        background-color: #ccc;
       }
       
-      .accordion1:after {
+      .accordion:after {
         content: '\002B';
         color: #777;
         font-weight: bold;
@@ -165,6 +165,24 @@
         overflow: hidden;
         transition: max-height 0.2s ease-out;
       }
+
+
+      .footer-con p{
+        
+        color: rgba(42, 42, 42, 0.65);
+        font-size: 10px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+        padding-top: 10px;
+    }
+    
+    .footer-con p:hover{
+        
+        color: rgba(0, 0, 0, 0.65);
+        font-size: 10px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+    }
   
     
     

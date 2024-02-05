@@ -1,26 +1,53 @@
-"Use client"
+"use client"
 
+import { useEffect } from 'react';
 import React from 'react';
 import './Section6.css';
 
 
-var acc = document.getElementsByClassName("accordion1");
-var i;
+// var acc = document.getElementsByClassName("accordion1");
+// var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
-}
+// for (i = 0; i < acc.length; i++) {
+//   acc[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+//     var panel = this.nextElementSibling;
+//     if (panel.style.maxHeight) {
+//       panel.style.maxHeight = null;
+//     } else {
+//       panel.style.maxHeight = panel.scrollHeight + "px";
+//     } 
+//   });
+// }
+
+
+
 
 export default function Section6() {
-
+    useEffect(() => {
+        const acc = document.getElementsByClassName("accordion");
+    
+        const handleAccordionClick = function () {
+          this.classList.toggle("active");
+          const panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        };
+    
+        for (let i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", handleAccordionClick);
+        }
+    
+        // Cleanup event listeners when component unmounts
+        return () => {
+          for (let i = 0; i < acc.length; i++) {
+            acc[i].removeEventListener("click", handleAccordionClick);
+          }
+        };
+      }, []);
     
     return (
         <div className='section6'>
