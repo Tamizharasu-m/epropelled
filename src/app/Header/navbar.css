@@ -36,9 +36,9 @@
         margin-right: 20px;
     }
 
-    body {
+    /* body {
         padding-top: 56px; /* Adjust based on your navbar height */
-      }
+      } */
   
       #offCanvasContent {
         transition: transform 0.3s ease-in-out;
