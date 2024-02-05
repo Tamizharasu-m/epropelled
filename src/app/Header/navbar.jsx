@@ -12,7 +12,7 @@ export default function (name, ...props) {
 
     const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(flase);
+  const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
 
@@ -55,6 +55,7 @@ export default function (name, ...props) {
         </div>
     )
 }
+
 
 
 

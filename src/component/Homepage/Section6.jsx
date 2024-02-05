@@ -1,17 +1,27 @@
+"use client"
+
 import React from 'react';
 import './Section6.css';
 
 
-function handleClick(id){
-var element = document.getElementById(id);
-if(element.classList.contains('active')){
-    element.classList.remove('active');
-}else{
-    element.classList.add('active') ;
-}
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
 }
 
 export default function Section6() {
+
+    
     return (
         <div className='section6'>
             <div className='section6-mx-w'>
@@ -40,31 +50,31 @@ export default function Section6() {
             <div className='section6-mx-w2'>
                 <div className='footer'>
                     <div className='footer-df'>
-                        <div className='footer-con' id='data'>
-                            <h5 onClick="handleClick(data)">PRODUCTS</h5>
-                            
+                        <div className='footer-con' >
+                            <h5 class="accordion" >PRODUCTS</h5>
+                            <div class="panel">
                                 <p>Air vehicles</p>
                                 <p>Light Electric Vehicle</p>
                                 <p>Sustainability System</p>
                                 <p>Electric Vehicle</p>
                                 <p>Marine</p>
-                            
+                            </div>
                         </div>
-                        <div className='footer-con' id='data1'>
-                            <h5 onClick="handleClick(data1)">USEFUL LINKS</h5>
-                            
+                        <div className='footer-con' >
+                            <h5 class="accordion" >USEFUL LINKS</h5>
+                            <div class="panel">
                                 <p>Company</p>
                                 <p>Contact</p>
                                 <p>Blog</p>
                                 <p>Privacy</p>
-                            
+                            </div>
                         </div>
-                        <div className='footer-con' id='data2'>
-                            <h5 onClick="handleClick(data2)">LOCATE US</h5>
-                            
+                        <div className='footer-con' >
+                            <h5 class="accordion" >LOCATE US</h5>
+                            <div class="panel" >
                                 <p>116 John Street STE 205Lowell, MA 01852</p>
                                 <p>MON - FRI: 9:00 AM - 5:00 PM</p>
-                            
+                            </div>
                         </div>
                     </div>
                     <div className='w50'>
@@ -73,7 +83,7 @@ export default function Section6() {
                 </div>
             </div>
             <div className='section6mx-w3'>
-            
+
                 <div className='footer-para'>
                     <p>© 2023 ePROPELLED all rights reserved.</p>
                 </div>
@@ -84,8 +94,8 @@ export default function Section6() {
                     <img src="./image/home image/youtube.svg" alt="" />
                 </div>
                 <div className='w501'>
-                        <img src="./image/home image/logo.svg" alt="" />
-                    </div>
+                    <img src="./image/home image/logo.svg" alt="" />
+                </div>
                 <div className='footer-para1'>
                     <p>© 2023 ePROPELLED all rights reserved.</p>
                 </div>
