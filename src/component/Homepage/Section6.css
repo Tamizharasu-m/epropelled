@@ -129,7 +129,7 @@
 
     
       
-    .accordion {
+    .accordion1 {
         background-color: #eee;
         color: #444;
         cursor: pointer;
@@ -142,11 +142,11 @@
         transition: 0.4s;
       }
       
-      .active, .accordion:hover {
+      .active, .accordion1:hover {
         background-color: #ffffff;
       }
       
-      .accordion:after {
+      .accordion1:after {
         content: '\002B';
         color: #777;
         font-weight: bold;

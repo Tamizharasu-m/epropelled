@@ -4,7 +4,7 @@ import React from 'react';
 import './Section6.css';
 
 
-var acc = document.getElementsByClassName("accordion");
+var acc = document.getElementsByClassName("accordion1");
 var i;
 
 for (i = 0; i < acc.length; i++) {
@@ -51,7 +51,7 @@ export default function Section6() {
                 <div className='footer'>
                     <div className='footer-df'>
                         <div className='footer-con' >
-                            <h5 class="accordion" >PRODUCTS</h5>
+                            <h5 class="accordion1" >PRODUCTS</h5>
                             <div class="panel">
                                 <p>Air vehicles</p>
                                 <p>Light Electric Vehicle</p>
@@ -61,7 +61,7 @@ export default function Section6() {
                             </div>
                         </div>
                         <div className='footer-con' >
-                            <h5 class="accordion" >USEFUL LINKS</h5>
+                            <h5 class="accordion1" >USEFUL LINKS</h5>
                             <div class="panel">
                                 <p>Company</p>
                                 <p>Contact</p>
@@ -70,7 +70,7 @@ export default function Section6() {
                             </div>
                         </div>
                         <div className='footer-con' >
-                            <h5 class="accordion" >LOCATE US</h5>
+                            <h5 class="accordion1" >LOCATE US</h5>
                             <div class="panel" >
                                 <p>116 John Street STE 205Lowell, MA 01852</p>
                                 <p>MON - FRI: 9:00 AM - 5:00 PM</p>
