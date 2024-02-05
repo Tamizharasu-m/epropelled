@@ -42,29 +42,29 @@ export default function Section6() {
                     <div className='footer-df'>
                         <div className='footer-con' id='data'>
                             <h5 onClick="handleClick(data)">PRODUCTS</h5>
-                            <ul>
-                                <li><a href='#'>Air vehicles</a></li>
-                                <li><a href='#'>Light Electric Vehicle</a></li>
-                                <li><a href='#'>Sustainability System</a></li>
-                                <li><a href='#'>Electric Vehicle</a></li>
-                                <li><a href='#'>Marine</a></li>
-                            </ul>
+                            
+                                <p>Air vehicles</p>
+                                <p>Light Electric Vehicle</p>
+                                <p>Sustainability System</p>
+                                <p>Electric Vehicle</p>
+                                <p>Marine</p>
+                            
                         </div>
                         <div className='footer-con' id='data1'>
                             <h5 onClick="handleClick(data1)">USEFUL LINKS</h5>
-                            <ul>
-                                <li><a href='#'>Company</a></li>
-                                <li><a href='#'>Contact</a></li>
-                                <li><a href='#'>Blog</a></li>
-                                <li><a href='#'>Privacy</a></li>
-                            </ul>
+                            
+                                <p>Company</p>
+                                <p>Contact</p>
+                                <p>Blog</p>
+                                <p>Privacy</p>
+                            
                         </div>
                         <div className='footer-con' id='data2'>
                             <h5 onClick="handleClick(data2)">LOCATE US</h5>
-                            <ul>
-                                <li><a href='#'>116 John Street STE 205Lowell, MA 01852</a></li>
-                                <li><a href='#'>MON - FRI: 9:00 AM - 5:00 PM</a></li>
-                            </ul>
+                            
+                                <p>116 John Street STE 205Lowell, MA 01852</p>
+                                <p>MON - FRI: 9:00 AM - 5:00 PM</p>
+                            
                         </div>
                     </div>
                     <div className='w50'>

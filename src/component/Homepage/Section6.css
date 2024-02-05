@@ -125,33 +125,25 @@
         font-family: "Open Sans",sans-serif;
     }
 
-    .footer-con ul li a{
+    .footer-con p{
         height: 0;
         background-color: white;
         overflow: hidden;
         transition: all linear 0.3s;
     }
 
-    .footer-con.active ul li a{
+    .footer-con.active p{
         height: 100px;
-    }
-    
-    .footer-con ul li {
-        list-style: none;
-        line-height: 25px;
-        padding-top: 10px;
-        
-    }
-    
-    .footer-con ul li a{
-        text-decoration: none;
         color: rgba(42, 42, 42, 0.65);
         font-size: 12px;
         font-family: "Open Sans", sans-serif;
         font-weight: 500;
+        padding-left: 20px;
     }
+      
     
-    .footer-con ul li a:hover{
+  
+    .footer-con p:hover{
         text-decoration: none;
         color: rgba(0, 0, 0, 0.65);
         font-size: 12px;
@@ -351,24 +343,21 @@
         font-family: "Open Sans",sans-serif;
     }
     
-    .footer-con ul li{
-        list-style: none;
-        line-height: 25px;
+    
+    
+    .footer-con p{
+        text-decoration: none;
+        color: rgba(42, 42, 42, 0.65);
+        font-size: 10px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
         padding-top: 10px;
     }
     
-    .footer-con ul li a{
-        text-decoration: none;
-        color: rgba(42, 42, 42, 0.65);
-        font-size: 12px;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 500;
-    }
-    
-    .footer-con ul li a:hover{
+    .footer-con p:hover{
         text-decoration: none;
         color: rgba(0, 0, 0, 0.65);
-        font-size: 12px;
+        font-size: 10px;
         font-family: "Open Sans", sans-serif;
         font-weight: 500;
     }
