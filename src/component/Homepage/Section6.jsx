@@ -1,4 +1,4 @@
-"use client"
+"Use client"
 
 import React from 'react';
 import './Section6.css';
