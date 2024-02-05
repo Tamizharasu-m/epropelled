@@ -5,16 +5,16 @@ import './navbar.css';
 import Link from "next/link";
 import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-// import {OffCanvasExample} ;
 
 
-export default function(name,...props){
+
+export default function (name, ...props) {
 
     const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
+  const handleClose = () => setShow(flase);
   const handleShow = () => setShow(true);
-   
+
 
     return (
 
@@ -37,19 +37,19 @@ export default function(name,...props){
                     <button><Link style={{ textDecoration: "none", color: "black" }} href="/contact">Contact Us</Link></button>
                 </div>
                 <div className="header-icon">
-                    <img variant="primary" onClick={handleShow} src="./image/home image/name.svg" alt=""  className="me-2" />
-                    
-        
-      
+                    <img variant="primary" onClick={handleShow} src="./image/home image/name.svg" alt="" className="me-2" />
 
-      <Offcanvas show={show} onHide={handleClose}>
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>ePROPELLED</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-        <Link style={{ textDecoration: "none", color: "black" }} href="/contact">Contact Us</Link>
-        </Offcanvas.Body>
-      </Offcanvas>
+
+
+
+                    <Offcanvas show={show} onHide={handleClose} {...props}>
+                        <Offcanvas.Header closeButton>
+                            <Offcanvas.Title>ePROPELLED</Offcanvas.Title>
+                        </Offcanvas.Header>
+                        <Offcanvas.Body>
+                            <Link style={{ textDecoration: "none", color: "black" }} href="/contact">Contact Us</Link>
+                        </Offcanvas.Body>
+                    </Offcanvas>
                 </div>
             </div>
         </div>
@@ -58,4 +58,4 @@ export default function(name,...props){
 
 
 
-  
+
