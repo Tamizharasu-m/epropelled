@@ -8,7 +8,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 
 
-export default function (name, ...props) {
+export default function ({name, ...props}) {
 
     const [show, setShow] = useState(false);
 
@@ -37,17 +37,20 @@ export default function (name, ...props) {
                     <button><Link style={{ textDecoration: "none", color: "black" }} href="/contact">Contact Us</Link></button>
                 </div>
                 <div className="header-icon">
-                    <img variant="primary" onClick={handleShow} src="./image/home image/name.svg" alt="" className="me-2" />
+                    <img variant="primary" onClick={handleShow} src="./image/home image/name.svg"  alt="" className="me-2" />
 
 
-
+                    
 
                     <Offcanvas show={show} onHide={handleClose} {...props}>
                         <Offcanvas.Header closeButton>
                             <Offcanvas.Title>ePROPELLED</Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
-                            <Link style={{ textDecoration: "none", color: "black" }} href="/contact">Contact Us</Link>
+                            <h5 className="canva-h5">products</h5>
+                            <h5 className="canva-h5">technology</h5>
+                            <h5 className="canva-h5">industries</h5>
+                            <h5 className="canva-h5"><Link style={{ textDecoration: "none", color: "black" }} href="/contact">Contact Us</Link></h5>
                         </Offcanvas.Body>
                     </Offcanvas>
                 </div>
@@ -56,16 +59,7 @@ export default function (name, ...props) {
     )
 }
 
-function navbar() {
-    return (
-      <>
-        {['top'].map((placement, idx) => (
-          <OffCanvasExample key={idx} placement={placement} name={placement} />
-        ))}
-      </>
-    );
-  } 
-
+ 
 
 
 

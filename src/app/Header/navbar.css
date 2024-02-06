@@ -53,6 +53,15 @@
       #offCanvasContent.open {
         transform: translateX(0);
       }
+
+
+      .canva-h5{
+        font-size: 18px;
+        font-weight: 600;
+        font-family: ibmplexsans, sans-serif;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+      }
 }
 
 @media screen and (min-width: 576px) and (max-width:992px) {

@@ -14,14 +14,14 @@
     .section1-img {
         text-align: center;
         border-bottom: 0.8px solid #bebebe;
+        height: 430.6px;
     }
 
     .section1-img img {
-        width: 330px;
-        height: 435px;
+        width: 325.6px;
+        height: 390.712px;
         padding-top: 40px;
         padding-bottom: 40px;
-        margin-right: 100px;
     }
 
     .section-text {
