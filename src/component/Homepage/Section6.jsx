@@ -5,27 +5,15 @@ import React from 'react';
 import './Section6.css';
 
 
-// var acc = document.getElementsByClassName("accordion1");
-// var i;
 
-// for (i = 0; i < acc.length; i++) {
-//   acc[i].addEventListener("click", function() {
-//     this.classList.toggle("active");
-//     var panel = this.nextElementSibling;
-//     if (panel.style.maxHeight) {
-//       panel.style.maxHeight = null;
-//     } else {
-//       panel.style.maxHeight = panel.scrollHeight + "px";
-//     } 
-//   });
-// }
 
 
 
 
 export default function Section6() {
+    
     useEffect(() => {
-        const acc = document.getElementsByClassName("accordion");
+        const acc = document.getElementsByClassName("accordion1");
     
         const handleAccordionClick = function () {
           this.classList.toggle("active");
@@ -79,7 +67,7 @@ export default function Section6() {
                     <div className='footer-df'>
                         <div className='footer-con' >
                             <h5 class="accordion1" >PRODUCTS</h5>
-                            <div class="panel">
+                            <div class="panel1">
                                 <p>Air vehicles</p>
                                 <p>Light Electric Vehicle</p>
                                 <p>Sustainability System</p>
@@ -89,7 +77,7 @@ export default function Section6() {
                         </div>
                         <div className='footer-con' >
                             <h5 class="accordion1" >USEFUL LINKS</h5>
-                            <div class="panel">
+                            <div class="panel1">
                                 <p>Company</p>
                                 <p>Contact</p>
                                 <p>Blog</p>
@@ -98,7 +86,7 @@ export default function Section6() {
                         </div>
                         <div className='footer-con' >
                             <h5 class="accordion1" >LOCATE US</h5>
-                            <div class="panel" >
+                            <div class="panel1" >
                                 <p>116 John Street STE 205Lowell, MA 01852</p>
                                 <p>MON - FRI: 9:00 AM - 5:00 PM</p>
                             </div>

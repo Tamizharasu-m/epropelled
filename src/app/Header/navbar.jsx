@@ -56,6 +56,16 @@ export default function (name, ...props) {
     )
 }
 
+function navbar() {
+    return (
+      <>
+        {['top'].map((placement, idx) => (
+          <OffCanvasExample key={idx} placement={placement} name={placement} />
+        ))}
+      </>
+    );
+  } 
+
 
 
 

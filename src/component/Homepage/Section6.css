@@ -1,10 +1,10 @@
 @media screen and (max-width:576px) {
-    .section6{
+    .section6 {
         background-color: rgba(247, 247, 247, 0.75);
         margin: 50px 0px;
     }
-    
-    .section6-mx-w{
+
+    .section6-mx-w {
         max-width: 500px;
         margin-left: auto;
         margin-right: auto;
@@ -12,8 +12,8 @@
         background-color: white;
         border-radius: 20px;
     }
-    
-    .footer-logo{
+
+    .footer-logo {
         padding-top: 48px;
         padding-bottom: 48px;
         justify-content: space-between;
@@ -22,31 +22,31 @@
         margin-right: 60px;
         border-bottom: 0.8px solid rgb(196, 196, 196);
     }
-    
-    .img1{
+
+    .img1 {
         display: none;
     }
-    
-    .img2{
+
+    .img2 {
         height: 29px;
         width: 60px;
     }
-    
-    .img3{
+
+    .img3 {
         height: 23px;
         width: 60px;
     }
-    
-    .img4{
+
+    .img4 {
         height: 22px;
         width: 60px;
     }
-    
-    .img5{
+
+    .img5 {
         display: none;
     }
-    
-    .section6-mx-w1{
+
+    .section6-mx-w1 {
         max-width: 500px;
         margin-left: auto;
         margin-right: auto;
@@ -59,134 +59,126 @@
         padding: 48px 0px 48px 0px;
     }
 
-    .df{
+    .df {
         text-align: center;
     }
-    
-    
-    .df1{
+
+
+    .df1 {
         display: flex;
         align-items: center;
     }
-    
-    
-    .footer-img{
+
+
+    .footer-img {
         height: 125px;
         border-radius: 20px;
         width: 303px;
         /* margin-right: 50px; */
         margin-bottom: 16px;
     }
-    
-    .footer-h3{
+
+    .footer-h3 {
         font-size: 16px;
         font-weight: 400;
         line-height: 19px;
         font-family: ibmplexsans, sans-serif;
         color: rgb(42, 42, 42);
     }
-    
-    .footer-icon{
+
+    .footer-icon {
         width: 25px;
         height: 25px;
         margin-left: 50px;
     }
-    
-    .df1 h2{
+
+    .df1 h2 {
         font-size: 40px;
         font-weight: 600;
         line-height: 48px;
-        font-family :ibmplexsans, sans-serif;
+        font-family: ibmplexsans, sans-serif;
     }
-    
-    .footer{
+
+    .footer {
         display: flex;
         justify-content: space-around;
         width: 100%;
     }
-    
-    
-    
-    .w50{
+
+
+
+    .w50 {
         display: none;
     }
-    
-    
-    .footer-con{
+
+
+    .footer-con {
         padding-left: 12px;
         padding-right: 12px;
     }
-    
-    .footer-con h5{
+
+    .footer-con h5 {
         font-size: 12px;
         font-weight: 600;
         line-height: 18px;
         color: rgb(42, 42, 42);
-        font-family: "Open Sans",sans-serif;
+        font-family: "Open Sans", sans-serif;
     }
 
-    
 
-    
-      
-    .accordion {
-        background-color: #eee;
+
+
+
+    .accordion1 {
+        background-color: #ffffff;
         color: #444;
         cursor: pointer;
         padding: 18px;
         width: 100%;
-        border: none;
+        border: 0.8px solid white;
         text-align: left;
         outline: none;
         font-size: 15px;
         transition: 0.4s;
-      }
-      
-      .active, .accordion:hover {
-        background-color: #ccc;
-      }
-      
-      .accordion:after {
+        border-radius: 20px;
+    }
+
+    .active,
+    .accordion1:hover {
+        background-color: #fffdfd;
+    }
+
+    .accordion1:after {
         content: '\002B';
-        color: #777;
+        /* color: #777; */
         font-weight: bold;
         float: right;
         margin-left: 5px;
-      }
-      
-      .active:after {
+    }
+
+    .active:after {
         content: "\2212";
-      }
-      
-      .panel {
+    }
+
+    .panel1 {
         padding: 0 18px;
         background-color: white;
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.2s ease-out;
-      }
+    }
 
-
-      .footer-con p{
-        
-        color: rgba(42, 42, 42, 0.65);
-        font-size: 10px;
+    .panel1 p{
+        color: rgba(0, 0, 0, 0.65);
+        font-size: 12px;
         font-family: "Open Sans", sans-serif;
         font-weight: 500;
         padding-top: 10px;
     }
-    
-    .footer-con p:hover{
-        
-        color: rgba(0, 0, 0, 0.65);
-        font-size: 10px;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 500;
-    }
-  
-    
-    
-    .section6-mx-w2{
+
+
+
+    .section6-mx-w2 {
         max-width: 500px;
         margin-left: auto;
         margin-right: auto;
@@ -194,8 +186,8 @@
         background-color: white;
         padding-top: 40px;
     }
-    
-    .section6mx-w3{
+
+    .section6mx-w3 {
         max-width: 500px;
         margin-left: auto;
         margin-right: auto;
@@ -203,55 +195,55 @@
         background-color: white;
         justify-content: space-between;
         /* display: flex; */
-        padding-top: 100px ;
+        padding-top: 100px;
         padding-bottom: 50px;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
     }
 
-    .footer-para{
+    .footer-para {
         display: none;
     }
-    
-    .footer-para1{
+
+    .footer-para1 {
         text-align: start;
         padding-left: 20px;
     }
-    
-    .footer-para1 p{
+
+    .footer-para1 p {
         color: rgb(42, 42, 42);
         font-size: 12px;
         font-weight: 500;
-        font-family:"Open Sans", sans-serif ;
+        font-family: "Open Sans", sans-serif;
     }
-    
-    .img-icon1{
+
+    .img-icon1 {
         padding-left: 20px;
         padding-bottom: 30px;
         text-align: start;
     }
-    
-    .img-icon1 img{
+
+    .img-icon1 img {
         padding-right: 20px;
         width: 40px;
         height: 25px;
     }
 
-    .w501{
+    .w501 {
         text-align: start;
         padding-bottom: 30px;
         padding-left: 20px;
     }
-    
+
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    .section6{
+    .section6 {
         background-color: rgba(247, 247, 247, 0.75);
         margin: 50px 0px;
     }
-    
-    .section6-mx-w{
+
+    .section6-mx-w {
         max-width: 1400px;
         margin-left: auto;
         margin-right: auto;
@@ -259,8 +251,8 @@
         background-color: white;
         border-radius: 20px;
     }
-    
-    .footer-logo{
+
+    .footer-logo {
         padding-top: 48px;
         padding-bottom: 48px;
         justify-content: space-between;
@@ -269,31 +261,31 @@
         margin-right: 60px;
         border-bottom: 0.8px solid rgb(196, 196, 196);
     }
-    
-    .img1{
+
+    .img1 {
         display: none;
     }
-    
-    .img2{
+
+    .img2 {
         height: 60px;
         width: 121px;
     }
-    
-    .img3{
+
+    .img3 {
         height: 50px;
         width: 129px;
     }
-    
-    .img4{
+
+    .img4 {
         height: 50px;
         width: 134px;
     }
-    
-    .img5{
+
+    .img5 {
         display: none;
     }
-    
-    .section6-mx-w1{
+
+    .section6-mx-w1 {
         max-width: 1300px;
         margin-left: auto;
         margin-right: auto;
@@ -305,82 +297,82 @@
         cursor: pointer;
         padding: 48px;
     }
-    
-    .df{
+
+    .df {
         display: flex;
         align-items: center;
     }
-    
-    .df1{
+
+    .df1 {
         display: flex;
         align-items: center;
     }
-    
-    
-    .footer-img{
+
+
+    .footer-img {
         height: 130px;
         border-radius: 800px;
         width: 245px;
         margin-right: 50px;
     }
-    
-    .footer-h3{
+
+    .footer-h3 {
         font-size: 16px;
         font-weight: 400;
         line-height: 19px;
         font-family: ibmplexsans, sans-serif;
         color: rgb(42, 42, 42);
     }
-    
-    .footer-icon{
+
+    .footer-icon {
         width: 60px;
         height: 60px;
         margin-left: 20px;
     }
-    
-    .df1 h2{
+
+    .df1 h2 {
         font-size: 63px;
         font-weight: 600;
         line-height: 76px;
-        font-family :ibmplexsans, sans-serif;
+        font-family: ibmplexsans, sans-serif;
     }
-    
-    .footer{
+
+    .footer {
         display: flex;
         justify-content: space-around;
         width: 100%;
     }
-    
-    .footer-df{
+
+    .footer-df {
         display: flex;
         width: 50%;
         justify-content: space-evenly;
     }
-    
-    .w50{
+
+    .w50 {
         width: 50%;
         text-align: end;
         margin-right: 50px;
         cursor: pointer;
     }
-    
-    
-    .footer-con{
+
+
+    .footer-con {
         padding-left: 12px;
         padding-right: 12px;
     }
-    
-    .footer-con h5{
+
+    .footer-con h5 {
         font-size: 12px;
         font-weight: 600;
         line-height: 18px;
         color: rgb(42, 42, 42);
-        font-family: "Open Sans",sans-serif;
+        font-family: "Open Sans", sans-serif;
     }
-    
-    
-    
-    .footer-con p{
+
+
+
+    .footer-con p {
         text-decoration: none;
         color: rgba(42, 42, 42, 0.65);
         font-size: 10px;
@@ -388,16 +380,16 @@
         font-weight: 500;
         padding-top: 10px;
     }
-    
-    .footer-con p:hover{
+
+    .footer-con p:hover {
         text-decoration: none;
         color: rgba(0, 0, 0, 0.65);
         font-size: 10px;
         font-family: "Open Sans", sans-serif;
         font-weight: 500;
     }
-    
-    .section6-mx-w2{
+
+    .section6-mx-w2 {
         max-width: 1400px;
         margin-left: auto;
         margin-right: auto;
@@ -405,8 +397,8 @@
         background-color: white;
         padding-top: 40px;
     }
-    
-    .section6mx-w3{
+
+    .section6mx-w3 {
         max-width: 1400px;
         margin-left: auto;
         margin-right: auto;
@@ -414,49 +406,50 @@
         background-color: white;
         justify-content: space-between;
         display: flex;
-        padding-top: 100px ;
+        padding-top: 100px;
         padding-bottom: 50px;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
     }
-    
-    .footer-para{
+
+    .footer-para {
         padding-left: 50px;
     }
-    
-    .footer-para p{
+
+    .footer-para p {
         color: rgb(42, 42, 42);
         font-size: 12px;
         font-weight: 500;
-        font-family:"Open Sans", sans-serif ;
+        font-family: "Open Sans", sans-serif;
     }
-    
-    .img-icon1{
+
+    .img-icon1 {
         padding-right: 50px;
     }
-    
-    .img-icon1 img{
+
+    .img-icon1 img {
         padding-right: 20px;
         width: 45px;
         height: 25px;
     }
-    .footer-para1{
+
+    .footer-para1 {
         display: none;
     }
 
-    .w501{
+    .w501 {
         display: none;
     }
-    
+
 }
 
 @media screen and (min-width:992px) {
-    .section6{
+    .section6 {
         background-color: rgba(247, 247, 247, 0.75);
         padding: 50px 0px;
     }
-    
-    .section6-mx-w{
+
+    .section6-mx-w {
         max-width: 1400px;
         margin-left: auto;
         margin-right: auto;
@@ -464,8 +457,8 @@
         background-color: white;
         border-radius: 20px;
     }
-    
-    .footer-logo{
+
+    .footer-logo {
         padding-top: 48px;
         padding-bottom: 48px;
         justify-content: space-between;
@@ -474,38 +467,38 @@
         margin-right: 60px;
         border-bottom: 0.8px solid rgb(196, 196, 196);
     }
-    
-    .img1{
+
+    .img1 {
         height: 37px;
         width: 140px;
         cursor: pointer;
     }
-    
-    .img2{
+
+    .img2 {
         height: 60px;
         width: 121px;
         cursor: pointer;
     }
-    
-    .img3{
+
+    .img3 {
         height: 50px;
         width: 129px;
         cursor: pointer;
     }
-    
-    .img4{
+
+    .img4 {
         height: 50px;
         width: 134px;
         cursor: pointer;
     }
-    
-    .img5{
+
+    .img5 {
         height: 20px;
         width: 158px;
         cursor: pointer;
     }
-    
-    .section6-mx-w1{
+
+    .section6-mx-w1 {
         max-width: 1400px;
         margin-left: auto;
         margin-right: auto;
@@ -518,92 +511,91 @@
         cursor: pointer;
         padding: 48px;
     }
-    
-    .df{
+
+    .df {
         display: flex;
         align-items: center;
     }
-    
-    .df1{
+
+    .df1 {
         display: flex;
         align-items: center;
     }
-    
-    
-    .footer-img{
+
+
+    .footer-img {
         height: 130px;
         border-radius: 800px;
         width: 245px;
         margin-right: 50px;
     }
-    
-    .footer-h3{
+
+    .footer-h3 {
         font-size: 16px;
         font-weight: 400;
         line-height: 19px;
         font-family: ibmplexsans, sans-serif;
         color: rgb(42, 42, 42);
     }
-    
-    .footer-icon{
+
+    .footer-icon {
         width: 60px;
         height: 60px;
         margin-left: 20px;
     }
-    
-    .df1 h2{
+
+    .df1 h2 {
         font-size: 63px;
         font-weight: 600;
         line-height: 76px;
-        font-family :ibmplexsans, sans-serif;
+        font-family: ibmplexsans, sans-serif;
     }
-    
-    .footer{
+
+    .footer {
         display: flex;
         justify-content: space-around;
         width: 100%;
     }
-    
-    .footer-df{
+
+    .footer-df {
         display: flex;
         width: 50%;
         justify-content: space-evenly;
     }
-    
-    .w50{
+
+    .w50 {
         width: 50%;
         text-align: end;
         margin-right: 50px;
         cursor: pointer;
     }
-    
-    
-    .footer-con{
+
+
+    .footer-con {
         padding-left: 12px;
         padding-right: 12px;
     }
-    
-    .footer-con h5{
+
+    .footer-con h5 {
         font-size: 12px;
         font-weight: 600;
         line-height: 18px;
         color: rgb(42, 42, 42);
-        font-family: "Open Sans",sans-serif;
+        font-family: "Open Sans", sans-serif;
     }
-    
-    
-    
-    
-    .footer-con p{
-        text-decoration: none;
+
+
+
+
+    .footer-con p {
         color: rgba(0, 0, 0, 0.65);
         font-size: 12px;
         font-family: "Open Sans", sans-serif;
         font-weight: 500;
         padding-top: 10px;
     }
-    
-    .section6-mx-w2{
+
+    .section6-mx-w2 {
         max-width: 1400px;
         margin-left: auto;
         margin-right: auto;
@@ -613,8 +605,8 @@
         /* border-top-left-radius: 20px;
         border-top-right-radius: 20px; */
     }
-    
-    .section6mx-w3{
+
+    .section6mx-w3 {
         max-width: 1400px;
         margin-left: auto;
         margin-right: auto;
@@ -622,40 +614,39 @@
         background-color: white;
         justify-content: space-between;
         display: flex;
-        padding-top: 100px ;
+        padding-top: 100px;
         padding-bottom: 50px;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
     }
-    
-    .footer-para{
+
+    .footer-para {
         padding-left: 50px;
     }
-    
-    .footer-para p{
+
+    .footer-para p {
         color: rgb(42, 42, 42);
         font-size: 12px;
         font-weight: 500;
-        font-family:"Open Sans", sans-serif ;
+        font-family: "Open Sans", sans-serif;
     }
-    
-    .img-icon1{
+
+    .img-icon1 {
         padding-right: 50px;
     }
-    
-    .img-icon1 img{
+
+    .img-icon1 img {
         padding-right: 20px;
         width: 45px;
         height: 25px;
     }
 
-    .footer-para1{
+    .footer-para1 {
         display: none;
     }
-    
-    .w501{
-        display: none;
-    }
-    
-}
 
+    .w501 {
+        display: none;
+    }
+
+}
