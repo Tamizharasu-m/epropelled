@@ -16,7 +16,7 @@
         line-height: 28px;
         color: rgb(42, 42, 42);
         text-align: start;
-        margin-bottom: 48px;
+        margin-bottom: 0;
     }
     
     .text-left {
@@ -40,8 +40,8 @@
     
     .w100{
         display: flex;
-        margin-top: 48px;
-        padding-top: 40px;
+        /* margin-top: 48px;
+        padding-top: 40px; */
         justify-content: center;
     }
     
@@ -53,8 +53,8 @@
     .w60{
        display: flex;
        justify-content:center;
-       padding-left: 10px;
-       padding-right: 10px;
+       /* padding-left: 10px; */
+       padding-right: 20px;
     }
    
        
@@ -70,6 +70,8 @@
         /* padding-left: 10px; */
         color: rgb(42, 42, 42);
         /* padding-right: 20px; */
+        margin-bottom: 0px;
+        margin-top: 10px;
     }
     
     .product-btn1 {
@@ -127,6 +129,8 @@
         /* margin-top: -65px; */
         text-align: center;
         color: rgb(42, 42, 42);
+        margin-bottom: 0px;
+        text-transform: uppercase;
     }
     
     .map-text h2 span{

@@ -103,10 +103,10 @@ export default function Section6() {
                     <p>© 2023 ePROPELLED all rights reserved.</p>
                 </div>
                 <div className='img-icon1'>
-                    <img src="./image/home image/in.svg" alt="" />
-                    <img src="./image/home image/insta.svg" alt="" />
-                    <img src="./image/home image/twiter.svg" alt="" />
-                    <img src="./image/home image/youtube.svg" alt="" />
+                    <div><img className='footer-image1' src="./image/home image/in.svg" alt="" /></div>
+                    <div><img className='footer-image2' src="./image/home image/insta.svg" alt="" /></div>
+                    <div><img className='footer-image3' src="./image/home image/twiter.svg" alt="" /></div>
+                    <div><img className='footer-image4' src="./image/home image/youtube.svg" alt="" /></div>
                 </div>
                 <div className='w501'>
                     <img src="./image/home image/logo.svg" alt="" />
