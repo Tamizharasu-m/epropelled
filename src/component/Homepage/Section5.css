@@ -35,6 +35,11 @@
             margin-left: 10px;
             
         }
+
+        .center1{
+            display: flex;
+            justify-content: center;
+        }
         
         .box h1{
             font-size: 50px;
@@ -65,13 +70,23 @@
             margin-left: auto;
             margin-right: auto;
             width: 100%;
+            /* display: flex;
+            justify-content: space-evenly; */
+        }
+
+        .large-logo{
             display: flex;
-            justify-content: space-evenly;
+            justify-content: center;
         }
         
         .large-logo img{
             height: 338px;
             width: 331px;
+        }
+
+        .center1{
+            display: flex;
+            justify-content: center;
         }
         
         .box{
@@ -81,6 +96,7 @@
             border-radius:32px ;
             background-color:rgba(96, 210, 168, 0.78) ;
             padding: 1.5rem;
+            margin-top: 10px;
         }
         
         .box h1{
@@ -115,6 +131,8 @@
         display: flex;
         justify-content: space-evenly;
     }
+
+    
 
     
 
