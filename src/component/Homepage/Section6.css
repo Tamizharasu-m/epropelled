@@ -21,6 +21,9 @@
         margin-left: 60px;
         margin-right: 60px;
         border-bottom: 0.8px solid rgb(196, 196, 196);
+        width: 397px;
+        height: 77.75px;
+        border-radius: 32px;
     }
 
     .img1 {
@@ -204,12 +207,8 @@
         padding-bottom: 24px;
         padding-left: 12px;
         padding-right: 12px;
-        border-bottom-left-radius: 32px;
-        border-bottom-right-radius: 32px;
-        width: 397px;
-        height: 77.75px;
-        border-top-left-radius: 32px;
-        border-top-right-radius: 32px;
+               
+        
     }
 
     .footer-para {
