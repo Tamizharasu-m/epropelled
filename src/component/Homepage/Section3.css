@@ -220,7 +220,7 @@
         font-family :"Open Sans", sans-serif;
         line-height: 26px;
         max-width: 750px;
-        /* border-left: 0.8px solid rgb(222, 226, 230); */
+        border-left: 0.8px solid rgb(222, 226, 230);
         text-align: justify;
         
     }
