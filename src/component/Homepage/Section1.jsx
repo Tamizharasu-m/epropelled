@@ -8,6 +8,7 @@ export default function Section1() {
                 <div className='section1-img'>
                     <img src="./image/home image/SUSTAINABILITY-SYSTEM-S-04.webp" alt="" />
                 </div>
+                
                 <div className='section-text'>
                     <div className='product-name'>
                         <h2>SUSTAINABILITY-SYSTEM</h2>
