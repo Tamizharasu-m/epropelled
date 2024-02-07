@@ -8,8 +8,8 @@
         height:459.837px;
         object-fit: cover;
         overflow-clip-margin: content-box;
-        overflow-x: clip;
-overflow-y: clip;
+        overflow-x: hidden;
+        overflow-y: clip;
     }
 
 
