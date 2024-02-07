@@ -52,7 +52,8 @@
     
     .w60{
        display: flex;
-       justify-content:last baseline;
+       justify-content:center;
+       padding-left: 20px;
     }
    
        
@@ -67,7 +68,7 @@
         /* border-left: 0.8px solid rgb(222, 226, 230); */
         /* padding-left: 10px; */
         color: rgb(42, 42, 42);
-        padding-right: 20px;
+        /* padding-right: 20px; */
     }
     
     .product-btn1 {
