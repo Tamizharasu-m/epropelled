@@ -6,8 +6,12 @@
     .bg-img {
         border-radius: 20px;
         /* height: auto; */
-        width: 360px;
-        height: 390px;
+        width: 100%;
+    }
+
+    .text-h2{
+        display: flex;
+        justify-content: center;
     }
 
     .text-h2 h2 {
@@ -19,7 +23,6 @@
         text-align: center;
         position: absolute;
         bottom: 25px;
-        left: 4px;
     }
 }
 
@@ -34,6 +37,11 @@
         width: 100%;
     }
 
+    .text-h2{
+        display: flex;
+        justify-content: center;
+    }
+
     .text-h2 h2 {
         font-size: 75px;
         font-weight: 400;
@@ -43,7 +51,6 @@
         text-align: center;
         position: absolute;
         bottom: 10px;
-        left: 36px;
     }
 }
 
@@ -58,6 +65,11 @@
         width: 100%;
     }
 
+    .text-h2{
+        display: flex;
+        justify-content: center;
+    }
+
     .text-h2 h2 {
         font-size: 75px;
         font-weight: 400;
@@ -67,6 +79,5 @@
         text-align: center;
         position: absolute;
         bottom: 50px;
-        left: 300px;
     }
 }

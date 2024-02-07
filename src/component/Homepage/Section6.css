@@ -84,12 +84,13 @@
         line-height: 19px;
         font-family: ibmplexsans, sans-serif;
         color: rgb(42, 42, 42);
+        text-align: start;
     }
 
     .footer-icon {
         width: 25px;
         height: 25px;
-        margin-left: 50px;
+        margin-left: 80px;
     }
 
     .df1 h2 {
@@ -97,6 +98,7 @@
         font-weight: 600;
         line-height: 48px;
         font-family: ibmplexsans, sans-serif;
+
     }
 
     .footer {
