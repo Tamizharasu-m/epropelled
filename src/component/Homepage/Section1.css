@@ -24,7 +24,7 @@
     .section1-img img {
         width: 257.6px;
         height: 390.712px;
-        padding-top: 40px;
+        padding-top: 0px;
         padding-bottom: 40px;
         object-fit: contain;
     }
@@ -181,6 +181,7 @@
         height: 480px;
         padding-top: 40px;
         padding-bottom: 40px;
+        object-fit: contain;
     }
 
     .section-text {
