@@ -13,6 +13,7 @@
         border-radius: 20px;
         justify-content: center;
         display: flex;
+        border-bottom: 0.8px solid rgb(196, 196, 196);
     }
 
     .footer-logo {
@@ -20,7 +21,7 @@
         padding-bottom: 48px;
         justify-content: space-evenly;
         display: flex;
-        border-bottom: 0.8px solid rgb(196, 196, 196);
+        
         width: 306px;
         height: 77.75px;
         border-radius: 32px;
