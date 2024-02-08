@@ -14,18 +14,19 @@
     .section1-img {
         text-align: center;
         border-bottom: 0.8px solid #bebebe;
-        height: 536px;
+        height: 60vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        /* position: relative; */
+        
     }
 
     .section1-img img {
-        width: 325.6px;
+        width: 257.6px;
         height: 390.712px;
         padding-top: 40px;
         padding-bottom: 40px;
+        object-fit: contain;
     }
 
     .section-text {
