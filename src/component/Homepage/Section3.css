@@ -51,10 +51,10 @@
     
     
     .w60{
-       display: flex;
-       justify-content:center;
+       /* display: flex;
+       justify-content:center; */
        /* padding-left: 10px; */
-       padding-right: 20px;
+       /* padding-right: 20px; */
     }
    
        
@@ -65,11 +65,11 @@
         font-weight: 400;
         font-family :"Open Sans", sans-serif;
         line-height: 24px;
-        max-width: 350px;
+        /* max-width: 350px; */
         /* border-left: 0.8px solid rgb(222, 226, 230); */
-        /* padding-left: 10px; */
+        padding-left: 20px;
         color: rgb(42, 42, 42);
-        /* padding-right: 20px; */
+        padding-right: 20px;
         margin-bottom: 0px;
         margin-top: 10px;
     }
@@ -104,12 +104,12 @@
     }
     
     .section3-mx-w1{
-        max-width: 1400px;
+        max-width: 2000px;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
-        padding-bottom: 100px;
-        padding-top: 100px;
+        padding-bottom: 40px;
+        padding-top: 40px;
     }
     
     .map{

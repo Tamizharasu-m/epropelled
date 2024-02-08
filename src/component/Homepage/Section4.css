@@ -6,7 +6,9 @@
     .bg-img {
         border-radius: 20px;
         /* height: auto; */
-        width: 100%;
+        width: 430px;
+        height: 459.837px;
+        object-fit: cover;
     }
 
     .text-h2{
