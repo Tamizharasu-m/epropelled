@@ -500,6 +500,10 @@
         margin-left: 60px;
         margin-right: 60px;
         border-bottom: 0.8px solid rgb(196, 196, 196);
+        
+    }
+    .img-icon1{
+        display: flex;
     }
 
     .img1 {
