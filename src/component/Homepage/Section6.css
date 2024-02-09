@@ -17,9 +17,10 @@
     }
 
     .footer-logo {
-        padding-top: 48px;
-        padding-bottom: 48px;
+        /* padding-top: 48px;
+        padding-bottom: 48px; */
         justify-content: space-evenly;
+        align-items: center;
         display: flex;
         width: 306px;
         height: 77.75px;
