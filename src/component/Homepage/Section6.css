@@ -164,6 +164,8 @@
 
     .accordion1.active:after{
         border: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
     }
 
     .active,
