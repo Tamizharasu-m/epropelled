@@ -98,7 +98,7 @@ export default function Section6() {
                 </div>
             </div>
             <div className='section6mx-w3'>
-
+                <div>
                 <div className='footer-para'>
                     <p>© 2023 ePROPELLED all rights reserved.</p>
                 </div>
@@ -113,6 +113,7 @@ export default function Section6() {
                 </div>
                 <div className='footer-para1'>
                     <p>© 2023 ePROPELLED all rights reserved.</p>
+                </div>
                 </div>
             </div>
         </div>
