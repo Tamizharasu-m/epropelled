@@ -178,6 +178,7 @@
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.2s ease-out;
+        margin-bottom: 1rem;
     }
 
     .panel1 p {
@@ -186,7 +187,7 @@
         font-family: "Open Sans", sans-serif;
         font-weight: 500;
         padding-left: 15px;
-        margin-bottom: 1rem;
+        
 
     }
 
