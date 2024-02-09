@@ -186,6 +186,9 @@
         overflow: hidden;
         transition: max-height 0.2s ease-out;
         margin-bottom: 1rem;
+        background-color: white;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
 
     .panel1 p {
