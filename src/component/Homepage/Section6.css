@@ -193,7 +193,7 @@
         margin-right: auto;
         width: 100%;
         background-color: white;
-        padding-top: 40px;
+        /* padding-top: 40px; */
     }
 
     .section6mx-w3 {
@@ -371,7 +371,7 @@
     }
 
     .df1 h2 {
-        font-size: 63px;
+        font-size: 50px;
         font-weight: 600;
         line-height: 76px;
         font-family: ibmplexsans, sans-serif;
@@ -444,8 +444,7 @@
         margin-right: auto;
         width: 100%;
         background-color: white;
-        justify-content: space-between;
-        display: flex;
+        
         padding-top: 100px;
         padding-bottom: 50px;
         border-bottom-left-radius: 20px;
@@ -483,6 +482,12 @@
 
     .img-icon1{
         display: flex;
+    }
+
+    .footer-df1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
 }
@@ -660,8 +665,6 @@
         margin-right: auto;
         width: 100%;
         background-color: white;
-        justify-content: space-between;
-        display: flex;
         padding-top: 100px;
         padding-bottom: 50px;
         border-bottom-left-radius: 20px;
@@ -697,4 +700,9 @@
         display: none;
     }
 
+    .footer-df1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
