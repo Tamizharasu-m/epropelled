@@ -163,7 +163,7 @@
     }
 
     .accordion1::after{
-        border: 0px;
+        border: none;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
     }
