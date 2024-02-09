@@ -158,6 +158,7 @@
         width: 306px;
         /* display: flex;
         align-items: center; */
+        margin-bottom: 0px;
     }
 
     .active,
