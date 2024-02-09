@@ -144,7 +144,7 @@
         background-color: #ffffff;
         color: #444;
         cursor: pointer;
-        padding:15px;
+        padding:8px 0px;
         width: 100%;
         border-bottom: 0.8px solid rgb(196, 196, 196);
         text-align: left;
@@ -153,7 +153,8 @@
         transition: 0.4s;
         margin-top: 1rem;
         background-color: white;
-        border-radius: 20px;
+        border-radius: 16px;
+        height: 68px;
 
     }
 
