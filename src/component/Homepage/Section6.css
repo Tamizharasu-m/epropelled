@@ -159,8 +159,11 @@
         border-radius: 16px;
         height: 68px;
         width: 306px;
-        
         margin-bottom: 0px;
+    }
+
+    .accordion1.active:after{
+        border: 0px;
     }
 
     .active,
