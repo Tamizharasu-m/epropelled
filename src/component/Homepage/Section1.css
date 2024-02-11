@@ -66,9 +66,15 @@
         border-radius: 800px;
         background-color: #323232;
         cursor: pointer;
+        background-image: linear-gradient(to right, #000000 50%, #ffffff 50%);
+        transition: background-position 0.3s ease;
+        background-size: 200% 100%;
     }
 
-    
+    .product-btn:hover{
+        background-position: -100% 0;
+        color: black;
+    }    
 
     .product-btn img {
         width: 33px;
@@ -81,6 +87,10 @@
         font-weight: 400;
         font-family: "Open Sans", sans-serif;
         padding-left: 20px;
+    }
+
+    .product-btn span:hover{
+        color: black;
     }
 }
 
@@ -142,6 +152,14 @@
         border-radius: 800px;
         background-color: #323232;
         cursor: pointer;
+        background-image: linear-gradient(to right, #000000 50%, #ffffff 50%);
+        transition:background-position 0.3s ease;
+        background-size: 200% 100%;
+    }
+
+    .product-btn:hover{
+        background-position: -100% 0;
+        color: #000000;
     }
 
     .product-btn img {
@@ -155,6 +173,10 @@
         font-weight: 400;
         font-family: "Open Sans", sans-serif;
         padding-left: 20px;
+    }
+
+    .product-btn span:hover{
+        color: black;
     }
 }
 
@@ -216,8 +238,17 @@
         line-height: 21px;
         padding: 0px 5px;
         border-radius: 800px;
+        color: white;
         background-color: #323232;
         cursor: pointer;
+        background-image: linear-gradient(to right, #000000 50%, #ffffff 50%);
+        transition:background-position 0.3s ease;
+        background-size: 200% 100%;
+    }
+
+    .product-btn:hover{
+        background-position: -100% 0;
+        color: #000000;
     }
 
     .product-btn img {
@@ -231,5 +262,14 @@
         font-weight: 400;
         font-family: "Open Sans", sans-serif;
         padding-left: 20px;
+    }
+
+    
+
+    .product-btn span:hover{
+        color: black;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
     }
 }

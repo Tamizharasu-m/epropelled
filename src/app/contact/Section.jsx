@@ -26,6 +26,11 @@ export default function () {
                     <p>US</p>
                 </div>
             </div>
+            <div className='card-box'>
+                <img src="./image/home image/US_Lowell.webp" alt="" />
+                <h2>HEADQUARTERS</h2>
+                <span>116 John Street Suite 205 Lowell,<br></br> MA 01852 USA <br></br>+1 (603) 236-7444</span>
+            </div>
         </div>
     </div>
   )
