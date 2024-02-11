@@ -33,7 +33,7 @@ export default function ({ name, ...props }) {
                     </ul>
                 </div>
                 <div className="header-btn">
-                    <button><Link style={{ textDecoration: "none", color: "black" }} href="/contact">Contact Us</Link></button>
+                    <button><Link style={{ textDecoration: "none", color: "black" }} href="/contact">Contact Us</Link> <span className="dot"></span></button>
                 </div>
                 <div className="header-icon">
                     
