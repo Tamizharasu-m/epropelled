@@ -674,6 +674,8 @@
         font-family: "Open Sans", sans-serif;
         font-weight: 500;
         padding-top: 10px;
+        margin-bottom: 0px;
+        cursor: pointer;
     }
 
     .section6-mx-w2 {
