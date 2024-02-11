@@ -162,7 +162,7 @@
         margin-bottom: 0px;
     }
 
-    .accordion1:active{
+    .accordion1::after{
         border-bottom: none;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
