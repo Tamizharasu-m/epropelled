@@ -33,21 +33,41 @@ export default function ({ name, ...props }) {
                     </ul>
                 </div>
                 <div className="header-btn">
-                    <button><Link style={{ textDecoration: "none", color: "black" }} href="/contact">Contact Us</Link> <span className="dot"></span></button>
+                    <button><Link style={{ textDecoration: "none", color: "black" }} href="/contact">Contact Us</Link> </button>
                 </div>
                 <div className="header-icon">
-                    
+
                     <img variant="primary" onClick={handleShow} src="./image/home image/name.svg" alt="" className="me-2" >{name}</img>
-
-
 
 
                     <Offcanvas show={show} onHide={handleClose} {...props}>
                         <Offcanvas.Header closeButton>
-                            <Offcanvas.Title>ePROPELLED</Offcanvas.Title>
+                            <Offcanvas.Title></Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <h5 className="canva-h5">products</h5>
+                            <div className="jcsb">
+                                <div className="canva-para">
+                                    <div><p>air <br></br>vehicles</p></div>
+                                    <div><img src="./image/home image/1.png" alt="" /></div>
+                                </div>
+                                <div className="canva-para">
+                                    <div><p>light electric <br></br> vehicle</p></div>
+                                    <div><img src="./image/home image/2.png" alt="" /></div>
+                                </div>
+                                <div className="canva-para">
+                                    <div><p>Sustainability <br></br> system</p></div>
+                                    <div><img src="./image/home image/3.png" alt="" /></div>
+                                </div>
+                                <div className="canva-para">
+                                    <div><p>electric <br></br> vehicle</p></div>
+                                    <div><img src="./image/home image/4.png" alt="" /></div>
+                                </div>
+                                <div className="canva-para">
+                                    <div><p>marine</p></div>
+                                    <div><img src="./image/home image/5.png" alt="" /></div>
+                                </div>
+                            </div>
                             <h5 className="canva-h5">technology</h5>
                             <h5 className="canva-h5">industries</h5>
                             <h5 className="canva-h5"><Link style={{ textDecoration: "none", color: "black" }} href="/contact">Contact Us</Link></h5>
