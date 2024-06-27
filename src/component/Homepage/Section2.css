@@ -74,10 +74,10 @@
     .section2-video video {
         width: 100%;
         height: 100%;
-        /* position: fixed;
-        top: 0px;
-        right: 0px;
-        left: 0px; */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .bg {

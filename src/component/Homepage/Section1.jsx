@@ -11,7 +11,7 @@ export default function Section1() {
                 
                 <div className='section-text'>
                     <div className='product-name'>
-                        <h2>SUSTAINABILITY-SYSTEM</h2>
+                        <h2>SUSTAINABILITY-SYSTEM1</h2>
                         <div className='product-btn'>
                             <img src="./image/home image/pic.svg" alt="" />
                             <span>View products</span>

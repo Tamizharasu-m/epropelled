@@ -26,8 +26,7 @@ export default function RootLayout({ children }) {
 
       </body>
       <script src="
-    https://cdn.jsdelivr.net/npm/react-bootstrap-navbar-offcanvas@1.0.3/lib/navbar-offcanvas.min.js
-    "></script>
+    https://cdn.jsdelivr.net/npm/react-bootstrap-navbar-offcanvas@1.0.3/lib/navbar-offcanvas.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
 
       <script src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js" crossorigin></script>

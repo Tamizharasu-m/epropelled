@@ -90,7 +90,7 @@
         margin-left: 600.125px;
         cursor: pointer;
         margin-left: 10px;
-        background-image: linear-gradient(to right, #000000 50%, #ffffff 50%);
+        background-image: linear-gradient(to right, #323232 50%, #ffffff 50%);
         transition: background-position 0.3s ease;
         background-size: 200% 100%;
     }
@@ -260,7 +260,7 @@
         margin-left: 600.125px;
         cursor: pointer;
         margin-left: 350px;
-        background-image: linear-gradient(to right, #000000 50%, #ffffff 50%);
+        background-image: linear-gradient(to right, #323232 50%, #ffffff 50%);
         transition: background-position 0.3s ease;
         background-size: 200% 100%;
     }
@@ -352,13 +352,13 @@
         height: 40px;
         width: 90px;
         line-height: 48px;
-        margin-bottom: -5px;
+        margin-bottom: 10px;
     }
 
     .text-img1 {
         width: 40px;
         height: 40px;
-        margin-bottom: -4px;
+        margin-bottom: 10px;
     }
 
     .w100 {
@@ -421,7 +421,7 @@
         background-color: #323232;
         margin-left: 600.125px;
         cursor: pointer;
-        background-image: linear-gradient(to right, #000000 50%, #ffffff 50%);
+        background-image: linear-gradient(to right, #323232 50%, #ffffff 50%);
         transition: background-position 0.3s ease;
         background-size: 200% 100%;
     }

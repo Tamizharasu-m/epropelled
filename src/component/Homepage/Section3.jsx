@@ -1,7 +1,35 @@
+"use client"
+
 import React from 'react';
 import './Section3.css';
+import { useEffect, useRef } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
 
 export default function () {
+    const textRef = useRef(null);
+    
+
+    useEffect(() => {
+        gsap.fromTo(
+          textRef.current,
+          { opacity: 0, y: 50 },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power3.out',
+            scrollTrigger: {
+              trigger: textRef.current,
+              start: 'top 90%',
+              end: 'bottom 10%',
+              scrub: true,
+            },
+          }
+        );
+      }, []);
+
     return (
         <div className='section3'>
             <div className='section3-mx-w'>
@@ -13,7 +41,7 @@ export default function () {
                         <img className='circle' src='./image/home image/circle.svg' />
                     </div>
                     <div className='w60'>
-                        <p>Our technology helps reduce energy consumption and improve system efficiency at a lower cost in the aerospace, manned
+                        <p ref={textRef} >Our technology helps reduce energy consumption and improve system efficiency at a lower cost in the aerospace, manned
                             and unmanned aerial vehicles, electric vehicles, and pump motor markets. We are a leader in magnetics engineering, and
                             our patented technology innovations are used in the air, land, and water, defining the future of electric propulsion.</p>
                     </div>
