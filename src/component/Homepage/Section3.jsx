@@ -5,6 +5,7 @@ import './Section3.css';
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+
 gsap.registerPlugin(ScrollTrigger);
 
 export default function () {
@@ -23,7 +24,7 @@ export default function () {
             scrollTrigger: {
               trigger: textRef.current,
               start: 'top 60%',
-              end: 'bottom 40%',
+              end: 'bottom 20%',
               scrub: true,
             },
           }
