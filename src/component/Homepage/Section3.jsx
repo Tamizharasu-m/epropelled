@@ -22,8 +22,8 @@ export default function () {
             ease: 'power3.out',
             scrollTrigger: {
               trigger: textRef.current,
-              start: 'top 90%',
-              end: 'bottom 10%',
+              start: 'top 60%',
+              end: 'bottom 40%',
               scrub: true,
             },
           }
