@@ -10,6 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function () {
     const textRef = useRef(null);
+    const fontRef = useRef(null);
     
 
     useEffect(() => {
@@ -23,19 +24,44 @@ export default function () {
             ease: 'power3.out',
             scrollTrigger: {
               trigger: textRef.current,
-              start: 'top 60%',
-              end: 'bottom 20%',
+              start: 'top 80%',
+              end: 'bottom 30%',
               scrub: true,
             },
           }
         );
       }, []);
 
+      useEffect(() => {
+        const text = fontRef.current;
+        const letters = text.innerText.split('');
+        text.innerHTML = letters.map(letter => `<span>${letter}</span>`).join('');
+    
+        gsap.fromTo(
+          text.children,
+          { opacity: 0, x: -50 },
+          {
+            opacity: 1,
+            x: 0,
+            duration: 1,
+            stagger: 0.05,
+            scrollTrigger: {
+              trigger: text,
+              start: "top 80%",
+              end: "top 20%",
+              scrub: true,
+            },
+          }
+        );
+      }, []);
+    
+    
+
     return (
         <div className='section3'>
             <div className='section3-mx-w'>
                 <div className='text-left'>
-                    <h2>EPROPELLED DESIGNS <img className="text-img" src='./image/home image/ph1.webp' /> STATE OF THE ART  MOTORS, <img className='text-img1' src='./image/home image/ph3.webp' /> GENERATORS, AND POWERMANAGEMENT SYSTEMS.</h2>
+                    <h2 ref={fontRef} >EPROPELLED DESIGNS <img className="text-img" src='./image/home image/ph1.webp' /> STATE OF THE ART  MOTORS, <img className='text-img1' src='./image/home image/ph3.webp' /> GENERATORS, AND POWERMANAGEMENT SYSTEMS.</h2>
                 </div>
                 <div className='w100'>
                     <div className='w40'>
