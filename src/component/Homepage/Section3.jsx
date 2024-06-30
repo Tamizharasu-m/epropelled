@@ -39,7 +39,7 @@ export default function () {
     
         gsap.fromTo(
           text.children,
-          { opacity: 0, x: -50 },
+          { opacity: 0.5, x: -50 },
           {
             opacity: 1,
             x: 0,
