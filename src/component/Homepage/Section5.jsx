@@ -1,29 +1,11 @@
 import React from 'react';
 import './Section5.css';
-import { gsap } from "gsap";
 
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-
-gsap.registerPlugin(ScrollTrigger);
 
 
 export default function Section5() {
 
-  // const tl = gsap.timeline({
-  //   scrollTrigger: {
-  //     scrub: 1,
-  //     pin: true,
-  //     trigger: "#pin-windmill",
-  //     start: "50% 50%",
-  //     endTrigger: "#pin-windmill-wrap",
-  //     end: "bottom 50%",
-  //   },
-  // });
 
-  // tl.to("#pin-windmill-svg", {
-  //   rotateZ: 900,
-  // });
 
 
   return (

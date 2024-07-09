@@ -14,6 +14,10 @@
     "react": "^18",
     "react-bootstrap": "^2.10.0",
     "react-dom": "^18",
-    "react-simple-offcanvas": "^1.0.9"
+    "react-simple-offcanvas": "^1.0.9",
+    "swiper": "^11.1.4"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
   }
 }

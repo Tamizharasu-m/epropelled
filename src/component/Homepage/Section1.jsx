@@ -1,27 +1,134 @@
-import React from 'react';
+"use client"
+
+import React, { useEffect, useRef, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
 import './Section1.css';
+import { Mousewheel, Pagination } from 'swiper/modules';
+
+
+
+ 
+
 
 export default function Section1() {
-    return (
-        <div className='section1'>
-            <div className='section1-mx-w'>
-                <div className='section1-img'>
-                    <img src="./image/home image/SUSTAINABILITY-SYSTEM-S-04.webp" alt="" />
+
+
+
+   
+  return (
+    <div className='container mx-auto'>
+      <div className='h-[100vh] w-[100%] max-w-xs sm:max-w-xl md:max-w-4xl lg:max-w-7xl xl:max-w-[1400px] mx-auto'>
+        <Swiper
+          direction={'vertical'}
+          slidesPerView={1}
+          spaceBetween={30}
+          mousewheel={true}
+          pagination={{
+            type: 'fraction'
+          }}
+          modules={[Mousewheel, Pagination]}
+          className="mySwiper "
+        >
+          <SwiperSlide>
+            <div>
+              <div className='flex justify-center'>
+                <img className='w-[257.6px] h-[390.712px] object-contain lg:w-[370px] md:h-[480px] xl:w-[407.75px] xl:h-[437.35px]' src="./image/home-slider1.webp" alt="" />
+              </div>
+              <div className='relative flex items-center justify-between top-[140px] border-t-[0.5px] border-zinc-800'>
+                <div className='pt-[15px]'>
+                  <h2 className='text-[24px] font-normal lg:text-[40px]'>AERIAL VEHICLE SERIES</h2>
+                  <div className='flex items-center product-btn'>
+                    <img className='w-[33px] h-[33px]' src="./image/ePropelled-2.svg" alt="" />
+                    <span>View products</span>
+                  </div>
                 </div>
-                
-                <div className='section-text'>
-                    <div className='product-name'>
-                        <h2>SUSTAINABILITY-SYSTEM1</h2>
-                        <div className='product-btn'>
-                            <img src="./image/home image/pic.svg" alt="" />
-                            <span>View products</span>
-                        </div>
-                    </div>
-                    <div className='product-img'>
-                        <img src="./image/home image/Sustainability-System-min.webp" alt="" />
-                    </div>
+                <div className='pt-[15px] relative bottom-[120px] md:bottom-[0px]'>
+                  <img className='w-[88px] h-[50px] rounded-[10px] md:w-[200px] md:h-[115px]' src="./image/AERIAL-VEHICLE-SERIES.webp" alt="" />
                 </div>
+              </div>
             </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <div className='flex justify-center'>
+                <img className='w-[257.6px] h-[390.712px] object-contain lg:w-[370px] md:h-[480px] xl:w-[407.75px] xl:h-[437.35px]' src="./image/LIGHT-ELECTRIC-VEHICLE-2.webp" alt="" />
+              </div>
+              <div className='relative flex items-center justify-between top-[140px] border-t-[0.5px] border-zinc-800'>
+                <div className='pt-[15px]'>
+                  <h2 className='text-[24px] font-normal lg:text-[40px]'>LIGHT ELECTRIC VEHICLE</h2>
+                  <div className='flex items-center product-btn'>
+                    <img className='w-[33px] h-[33px]' src="./image/ePropelled-2.svg" alt="" />
+                    <span>View products</span>
+                  </div>
+                </div>
+                <div className='pt-[15px]  relative bottom-[120px] md:bottom-[0px]'>
+                  <img className='w-[88px] h-[50px] rounded-[10px] md:w-[200px] md:h-[115px]' src="./image/LIGHT-ELECTRIC-VEHICLE-min.webp" alt="" />
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <div className='flex justify-center'>
+                <img className='w-[257.6px] h-[390.712px] object-contain lg:w-[370px] md:h-[480px] xl:w-[407.75px] xl:h-[437.35px]' src="./image/SUSTAINABILITY-SYSTEM-S-04.webp" alt="" />
+              </div>
+              <div className='relative flex items-center justify-between top-[140px] border-t-[0.5px] border-zinc-800'>
+                <div className='pt-[15px]'>
+                  <h2 className='text-[24px] font-normal lg:text-[40px]'>SUSTAINABILITY SYSTEM</h2>
+                  <div className='flex items-center product-btn'>
+                    <img className='w-[33px] h-[33px]' src="./image/ePropelled-2.svg" alt="" />
+                    <span>View products</span>
+                  </div>
+                </div>
+                <div className='pt-[15px]  relative bottom-[120px] md:bottom-[0px]'>
+                  <img className='w-[88px] h-[50px] rounded-[10px] md:w-[200px] md:h-[115px]' src="./image/Sustainability-System-min.webp" alt="" />
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <div className='flex justify-center'>
+                <img className='w-[257.6px] h-[390.712px] object-contain lg:w-[370px] md:h-[480px] xl:w-[407.75px] xl:h-[437.35px]' src="./image/ELECTRICAL-VEHICLE-S04.webp" alt="" />
+              </div>
+              <div className='relative flex items-center justify-between top-[140px] border-t-[0.5px] border-zinc-800'>
+                <div className='pt-[15px]'>
+                  <h2 className='text-[24px] font-normal lg:text-[40px]'>ELECTRICAL VEHICLE</h2>
+                  <div className='flex items-center product-btn'>
+                    <img className='w-[33px] h-[33px]' src="./image/ePropelled-2.svg" alt="" />
+                    <span>View products</span>
+                  </div>
+                </div>
+                <div className='pt-[15px] relative bottom-[120px] md:bottom-[0px]'>
+                  <img className='w-[88px] h-[50px] rounded-[10px] md:w-[200px] md:h-[115px]' src="./image/Electric-Vehicle-min-1.webp" alt="" />
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <div className='flex justify-center'>
+                <img className='w-[257.6px] h-[390.712px] object-contain lg:w-[370px] md:h-[480px] xl:w-[407.75px] xl:h-[437.35px]' src="./image/MARINE.webp" alt="" />
+              </div>
+              <div className='relative flex items-center justify-between top-[140px] border-t-[0.5px] border-zinc-800'>
+                <div className='pt-[15px]'>
+                  <h2 className='text-[24px] font-normal lg:text-[40px]'>MARINE</h2>
+                  <div className='flex items-center product-btn'>
+                    <img className='w-[33px] h-[33px]' src="./image/ePropelled-2.svg" alt="" />
+                    <span>View products</span>
+                  </div>
+                </div>
+                <div className='pt-[15px] relative bottom-[120px] md:bottom-[0px]'>
+                  <img className='w-[88px] h-[50px] md:w-[200px] md:h-[115px] rounded-[10px]' src="./image/01MARINE-min.webp" alt="" />
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+
+        </Swiper>
         </div>
-    )
+    </div>
+  );
 }
